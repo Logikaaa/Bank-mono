@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
-   <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Переказ</title>
 </head>
 <body>
-    <div>
-        35.98 грн
-    </div>
+    <div class="container">
+        <div class="amount">
+            35.98 грн
+        </div>
 
-    <button type="button">Надіслати</button>
+        <div class="input-group">
+            <label for="card">Номер картки</label>
+            <input type="text" id="card" name="card" maxlength="19" placeholder="XXXX XXXX XXXX XXXX">
+        </div>
 
-    <div>
-        <label for="otr">Отримувач</label>
-        <input type="text" id="otr" name="otr">
-    </div>
+        <div class="input-group">
+            <label for="otr">Отримувач</label>
+            <input type="text" id="otr" name="otr">
+        </div>
 
-    <div>
-        <label for="otr">Сума</label>
-        <input type="text" id="suma" name="suma">
+        <div class="input-group">
+            <label for="suma">Сума</label>
+            <input type="text" id="suma" name="suma">
+        </div>
+
+        <button type="button">Надіслати</button>
     </div>
 </body>
 </html>
