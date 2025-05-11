@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2a2a2a; /* Темно-сірий фон */
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #707070;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: white;
+  }
+  
+  .amount {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #5a5a5a;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #6a6a6a;
+  }
+  
