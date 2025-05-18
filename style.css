@@ -1,53 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #2a2a2a; /* Темно-сірий фон */
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin: auto;
+    height: 100%;
+    font-family: 'Inter';
+    background-color: #2a2a2a;
+    
   }
   
   .container {
-    background-color: #707070;
-    padding: 40px;
-    border-radius: 10px;
-    width: 400px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
   }
   
-  .amount {
-    font-size: 24px;
-    text-align: center;
-    font-weight: bold;
-  }
   
   .input-group {
+    background-color: #707070;
+    width: 400px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
   }
   
   label {
-    margin-bottom: 8px;
+    margin-bottom: 0;
     font-size: 16px;
+    color: white;
   }
   
-  input[type="text"] {
+  input {
     padding: 10px;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
     color: white;
     font-size: 16px;
     outline: none;
   }
   
   button {
-    padding: 12px;
+    
     background-color: #5a5a5a;
     border: none;
     border-radius: 10px;
@@ -56,6 +54,9 @@ body {
     cursor: pointer;
     font-weight: bold;
     transition: background-color 0.3s;
+    width: 300px;
+    
+    padding: 10px;
   }
   
   button:hover {
